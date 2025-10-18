@@ -4,32 +4,119 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YJAH792ArQ4qbfctt7NO-8" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="430" y="60" width="160" height="200" as="geometry" />
+        </mxCell>
         <mxCell id="YJAH792ArQ4qbfctt7NO-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="290" width="440" height="130" as="geometry" />
+          <mxGeometry x="90" y="290" width="670" height="130" as="geometry" />
         </mxCell>
         <mxCell id="YJAH792ArQ4qbfctt7NO-1" value="Guest Machine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="90" width="120" height="60" as="geometry" />
+          <mxGeometry x="450" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YJAH792ArQ4qbfctt7NO-2" value="qemu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="450" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YJAH792ArQ4qbfctt7NO-3" value="内核中的KVM模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="450" y="300" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YJAH792ArQ4qbfctt7NO-5" value="Kinux Kernel" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+        <mxCell id="YJAH792ArQ4qbfctt7NO-5" value="Linux Kernel" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="370" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YJAH792ArQ4qbfctt7NO-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="YJAH792ArQ4qbfctt7NO-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="260" y="200" as="sourcePoint" />
-            <mxPoint x="310" y="150" as="targetPoint" />
+            <mxPoint x="460" y="190" as="sourcePoint" />
+            <mxPoint x="510" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YJAH792ArQ4qbfctt7NO-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YJAH792ArQ4qbfctt7NO-4" target="YJAH792ArQ4qbfctt7NO-2">
+        <mxCell id="YJAH792ArQ4qbfctt7NO-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.208;exitY=0.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="YJAH792ArQ4qbfctt7NO-3" target="YJAH792ArQ4qbfctt7NO-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="330" y="290" as="sourcePoint" />
-            <mxPoint x="330" y="240" as="targetPoint" />
+            <mxPoint x="510" y="280" as="sourcePoint" />
+            <mxPoint x="530" y="230" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="YJAH792ArQ4qbfctt7NO-9" value="Userspace&lt;div&gt;Process 1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="90" y="60" width="100" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YJAH792ArQ4qbfctt7NO-10" value="Userspace&lt;div&gt;Process 2&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="220" y="60" width="100" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YJAH792ArQ4qbfctt7NO-11" value="etc- -&amp;gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="145" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YJAH792ArQ4qbfctt7NO-12" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="610" y="58" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YJAH792ArQ4qbfctt7NO-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="63" width="120" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="YJAH792ArQ4qbfctt7NO-14" value="qemu process" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="210" width="120" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="YJAH792ArQ4qbfctt7NO-15" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YJAH792ArQ4qbfctt7NO-14" target="YJAH792ArQ4qbfctt7NO-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="188" as="sourcePoint" />
+            <mxPoint x="690" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJAH792ArQ4qbfctt7NO-16" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.208;exitY=0.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="YJAH792ArQ4qbfctt7NO-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="300" as="sourcePoint" />
+            <mxPoint x="710" y="228" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJAH792ArQ4qbfctt7NO-17" value="Guest Userspace" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="75" width="110" height="32.08" as="geometry" />
+        </mxCell>
+        <mxCell id="YJAH792ArQ4qbfctt7NO-18" value="Guest Kernel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="115" width="110" height="32.08" as="geometry" />
+        </mxCell>
+        <mxCell id="YJAH792ArQ4qbfctt7NO-19" value="Guest 1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YJAH792ArQ4qbfctt7NO-20" value="Guest 2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YJAH792ArQ4qbfctt7NO-21" value="Guest Linux/Windows" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YJAH792ArQ4qbfctt7NO-22" value="Guest Linux/Windows" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YJAH792ArQ4qbfctt7NO-23" value="Hardware Support - Virtualization Technology(e.g. Intel VT/AMD-V)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="455" width="670" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="YJAH792ArQ4qbfctt7NO-24" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.482;exitY=0.029;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="YJAH792ArQ4qbfctt7NO-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413" y="472" as="sourcePoint" />
+            <mxPoint x="413" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJAH792ArQ4qbfctt7NO-26" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="697" y="175" as="sourcePoint" />
+            <mxPoint x="860" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJAH792ArQ4qbfctt7NO-27" value="提供设备模拟：BIOS、PCI/PCIE总线、磁盘、网卡、显卡、声卡etc" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="160" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YJAH792ArQ4qbfctt7NO-29" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="697" y="271" as="sourcePoint" />
+            <mxPoint x="860" y="271" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJAH792ArQ4qbfctt7NO-30" value="系统调用交互" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="260" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YJAH792ArQ4qbfctt7NO-31" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="435" y="430" as="sourcePoint" />
+            <mxPoint x="858" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJAH792ArQ4qbfctt7NO-34" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;硬件辅助的虚拟化：把软件模拟效率比较低的组件卸载到硬件去模拟。&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="420" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
