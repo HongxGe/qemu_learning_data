@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7">
-  <diagram name="第 1 页" id="o7Exf6rS8GeCbZAeezHd">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7" pages="3">
+  <diagram name="00_qemu/kvm虚拟化架构" id="o7Exf6rS8GeCbZAeezHd">
     <mxGraphModel dx="1042" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -117,6 +117,121 @@
         </mxCell>
         <mxCell id="YJAH792ArQ4qbfctt7NO-34" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;硬件辅助的虚拟化：把软件模拟效率比较低的组件卸载到硬件去模拟。&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="870" y="420" width="180" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ECqGmqEu7vwEUBP-7cj1" name="01_CPU虚拟化">
+    <mxGraphModel dx="1042" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5BOgkLU3DN7B22kN8609" name="第 3 页">
+    <mxGraphModel dx="1042" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-29" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="550" width="270" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="200" y="90" width="400" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="254" y="140" width="300" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-4" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="300" y="190" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="360" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-6" value="x86特权等级" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="30" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-7" value="Ring 3" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-8" value="Ring 2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-9" value="Ring 1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-10" value="Ring 0" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-11" value="Kernel" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-12" value="Device drives" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="358" y="332" width="92" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-13" value="Device drives" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="358" y="392" width="92" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-14" value="APP" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="374" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-15" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="700" y="90" width="400" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-16" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="754" y="140" width="300" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-17" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="800" y="190" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-18" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="860" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-19" value="EL1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-20" value="EL1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-21" value="EL2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-22" value="EL3" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-23" value="Fireware/Secure Monitor" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="280" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-24" value="Hypervisor" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="858" y="332" width="92" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-25" value="Rich OS" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="858" y="392" width="92" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-26" value="APP" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="874" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-27" value="ARM特权等级" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="30" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-28" value="特权指令" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-30" value="敏感指令" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="550" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-31" value="敏感操作" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="714" y="625" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ug40v1VGVSGRpFO_0hBO-32" target="ug40v1VGVSGRpFO_0hBO-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-32" value="CPU在低等级执行特权指令" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ug40v1VGVSGRpFO_0hBO-33" value="CPU触发异常" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="715" y="820" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
